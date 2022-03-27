@@ -11,6 +11,7 @@
   inputs.src-nimgram-master.ref   = "refs/heads/master";
   inputs.src-nimgram-master.owner = "nimgram";
   inputs.src-nimgram-master.repo  = "nimgram";
+  inputs.src-nimgram-master.dir   = "";
   inputs.src-nimgram-master.type  = "github";
   
   inputs."zippy".owner = "nim-nix-pkgs";

@@ -11,6 +11,7 @@
   inputs.src-nimgram-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimgram-v0_1_0.owner = "nimgram";
   inputs.src-nimgram-v0_1_0.repo  = "nimgram";
+  inputs.src-nimgram-v0_1_0.dir   = "";
   inputs.src-nimgram-v0_1_0.type  = "github";
   
   inputs."zippy".owner = "nim-nix-pkgs";
