@@ -11,7 +11,6 @@
   inputs.src-nimgram-master.ref   = "refs/heads/master";
   inputs.src-nimgram-master.owner = "nimgram";
   inputs.src-nimgram-master.repo  = "nimgram";
-  inputs.src-nimgram-master.dir   = "";
   inputs.src-nimgram-master.type  = "github";
   
   inputs."zippy".owner = "nim-nix-pkgs";
@@ -45,6 +44,14 @@
   inputs."gmp".type  = "github";
   inputs."gmp".inputs.nixpkgs.follows = "nixpkgs";
   inputs."gmp".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/dadadani/nim-random".owner = "nim-nix-pkgs";
+  inputs."github.com/dadadani/nim-random".ref   = "master";
+  inputs."github.com/dadadani/nim-random".repo  = "github.com/dadadani/nim-random";
+  inputs."github.com/dadadani/nim-random".dir   = "";
+  inputs."github.com/dadadani/nim-random".type  = "github";
+  inputs."github.com/dadadani/nim-random".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/dadadani/nim-random".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
